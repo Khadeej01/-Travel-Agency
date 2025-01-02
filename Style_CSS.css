@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    background-color: rgba(253, 240, 234, 255);
+    width: 100%;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-link {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.header-link a {
+    padding: 5px 10px;
+}
+
+.logo, .btn-login {
+    flex: 1;
+}
+
+.logo {
+    width: 200px;
+}
+
+.btn-login {
+    background-color: peru;
+    border-radius: 15px;
+}
+
+
+
+.header-links a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+
+}
+
+
+
+.Landing-page {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.container{
+    display: flex;
+}
+
+footer{
+    background-color: rgb(253, 240, 234);
+    position: relative;
+}
