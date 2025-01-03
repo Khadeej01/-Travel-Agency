@@ -12,6 +12,7 @@
     background-color: rgba(253, 240, 234, 255);
     width: 100%;
     padding: 15px 0;
+    border-radius: 10px;
 }
 
 .header .container {
@@ -72,7 +73,7 @@ body {
     margin-bottom: 50px;
 }
 
-.Question h3{
+.Question h4{
     padding-left: 130px;
     padding-top: 15px;
 }
@@ -82,4 +83,15 @@ body {
     }.item h5{
         padding-bottom: 15px;
     }
+
     
+    footer{
+        background-color: rgb(253, 240, 234);
+        position: relative;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.Bas {
+    padding: 50px;
+}
