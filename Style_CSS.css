@@ -15,6 +15,16 @@
     border-radius: 10px;
 }
 
+
+
+.logo, .btn-login {
+    flex: 1;
+}
+
+
+.logo {
+    width: 200px;
+}
 .header .container {
     display: flex;
     align-items: center;
@@ -88,7 +98,7 @@ body {
     footer{
         background-color: rgb(253, 240, 234);
         position: relative;
-        width: 100%;
+        width: 500%;
         border-radius: 10px;
     }
 
