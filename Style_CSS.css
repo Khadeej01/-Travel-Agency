@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 .container {
+    width: 100%;
+    margin: 0 auto;
+}
+.cards .container{
     width: 80%;
     margin: 0 auto;
 }
-
 .header {
     background-color: rgba(253, 240, 234, 255);
     width: 100%;
@@ -54,8 +57,11 @@
 
 .btn-login {
     background-color: peru;
-    border-radius: 15px;
+     border-radius: 15px; 
     padding: 10px;
+   border: none;
+   color: white;
+   margin-top: 50px;
 }
 
 
@@ -70,38 +76,52 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 10px 100px;
+
   
 }
 
 .Landing-page .Title h1{
     font-size: 50px;
+    
+
 }
 
 .container{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    gap: 30px;
+   
+   
 }
 
 .Question h4{
-    padding-left: 130px;
+    /* padding-left: 130px; */
     padding-top: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left:80px;
 }
 
 .item img{
     padding-bottom: 15px;
+
     }.item h5{
-        padding-bottom: 15px;
+     margin-left: 0;
     }
 
     
     footer{
         background-color: rgb(253, 240, 234);
         position: relative;
-        width: 500%;
+        width: 100%;
         border-radius: 10px;
+        margin-top: 50px;
+        
     }
 
 .Bas {
+
     padding: 50px;
 }
