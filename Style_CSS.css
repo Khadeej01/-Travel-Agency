@@ -1,2 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgba(253, 240, 234, 255);
+    width: 100%;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-link {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.header-link a {
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+
+}
+
+.Button{
+    padding-top: 15px;
+}
 
 
+.btn-login {
+    background-color: peru;
+    border-radius: 15px;
+    padding: 10px;
+}
