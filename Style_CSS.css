@@ -46,3 +46,29 @@
     border-radius: 15px;
     padding: 10px;
 }
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.Landing-page {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  
+}
+
+.Landing-page .Title h1{
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 50px;
+}
+
